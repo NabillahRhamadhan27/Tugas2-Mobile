@@ -1,16 +1,30 @@
-# aplikasilogin
+# 🌍 Aplikasi Login dengan Deteksi Lokasi
 
-A new Flutter project.
+Tugas 2 - Pemrograman Mobile  
+Dibuat oleh: **Nabillah Rhamadhan** Dengan NIM (202310370311452)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Deskripsi Aplikasi
+Aplikasi ini merupakan **simulasi login sederhana** yang dibuat menggunakan **Flutter**.  
+Setelah pengguna login dengan username dan password tertentu, aplikasi akan menampilkan lokasi pengguna secara **real-time** menggunakan **plugin Geolocator**.
 
-A few resources to get you started if this is your first Flutter project:
+Semua tampilan dan desain antarmuka dibuat **secara manual tanpa bantuan AI** (menggunakan widget dasar Flutter seperti `Column`, `Container`, `TextField`, dan `ElevatedButton`).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Fitur Utama
+- ✅ Form Login (username dan password)
+- ✅ Validasi input login
+- ✅ Integrasi **Geolocator** untuk mendapatkan posisi GPS pengguna
+- ✅ Menampilkan koordinat (latitude dan longitude)
+- ✅ Desain manual (tanpa library UI tambahan atau generator AI)
+
+---
+
+## 📍 Plugin yang Digunakan
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^12.0.0
